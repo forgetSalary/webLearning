@@ -1,0 +1,46 @@
+/* Foreground: */
+.foreground h1{
+  text-decoration: underline;}
+
+/* color name */
+.foreground h2 {
+color: DarkCyan;}
+/* hex code */
+.foreground h3 {
+color: #FC2C6D;}
+/* rgb value */
+.foreground p {
+color: rgb(100,100,90);}
+
+/* Background: */
+.background{
+  padding: 10px;
+  font-family: arial;
+  background-color: rgb(200,200,200);}
+
+.background h2 {
+  color: rgb(500,500,500);
+  background-color: DarkCyan;}
+
+.background h3 {
+  color: rgb(500,500,500);
+  background-color: #ee3e80;}
+.background p {
+  color: rgb(100,100,100);
+  background-color: white;}
+
+
+/* Opacity: */
+#Sqr1{
+  height: 200px;
+  width: 200px;
+  background-color: #ee3e80;
+  opacity: 0.5;}
+}
+
+#Sqr2{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(0,0,0);
+  opacity: 0.5;}
+}
