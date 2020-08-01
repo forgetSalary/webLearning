@@ -73,3 +73,29 @@ color: rgb(100,100,90);}
 
 #newline:first-line{
   font-weight: bold;}
+
+/* Boxes */
+.boxes div.box {
+  height: 300px;
+  width: 300px;
+  background-color: #bbbbaa;}
+.boxes .box p {
+  height: 75%;
+  width: 75%;
+  background-color: #0088dd;}
+
+.boxes td.fst {
+  min-width: 450px;
+  max-width: 650px;
+  text-align: left;
+  padding: 5px;
+  margin: 0px;}
+
+* { outline: 2px dotted red; }
+* * { outline: 2px dotted green; }
+* * * { outline: 2px dotted orange; }
+* * * * { outline: 2px dotted blue; }
+* * * * * { outline: 1px solid red; }
+* * * * * * { outline: 1px solid green; }
+* * * * * * * { outline: 1px solid orange; }
+* * * * * * * * { outline: 1px solid blue; }
