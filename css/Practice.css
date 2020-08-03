@@ -1,3 +1,7 @@
+.header:hover{
+  box-shadow: 8px 7px 4px 3px #777777;
+}
+
 /* Foreground: */
 .foreground h1{
   text-decoration: underline;}
@@ -31,6 +35,11 @@ color: rgb(100,100,90);}
 
 
 /* Opacity: */
+.opacity{
+  height: 355px;
+
+}
+
 #sqr1{
   height: 200px;
   width: 200px;
@@ -91,11 +100,152 @@ color: rgb(100,100,90);}
   padding: 5px;
   margin: 0px;}
 
-/** { outline: 2px dotted red; }
-* * { outline: 2px dotted green; }
-* * * { outline: 2px dotted orange; }
-* * * * { outline: 2px dotted blue; }
-* * * * * { outline: 1px solid red; }
-* * * * * * { outline: 1px solid green; }
-* * * * * * * { outline: 1px solid orange; }
-* * * * * * * * { outline: 1px solid blue; }*/
+
+#maxH h2,#maxH p, #ovrfl h2, #ovrfl p{
+  width: 400px;
+  font-size: 90%;
+  line-height: 1.2em;}
+
+#maxH h2, #ovrfl h2{
+  color: #0088dd;
+  border-bottom: 1px solid #0088dd;
+}
+
+#maxH p, #ovrfl p{
+  min-height: 10px;
+  max-height: 30px;
+}
+
+#ovrfl p.one{
+  overflow: hidden;
+}
+
+#ovrfl p.two{
+  overflow: scroll;
+}
+
+#borderW p{
+  border: 1px solid black;
+}
+
+#borderW p.one{
+  border-width: 2px;
+
+}
+
+#borderW p.two{
+  border-width: thick;
+
+}
+
+#borderW p.three{
+  border-width: 1px 4px 12px 4px;
+
+}
+#ovrfl, #maxH, #borderW, #borderS{
+  margin-top: 1.5em;
+}
+
+
+#borderS p{
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 2em;
+  font-family: arial;
+  margin: 0.2em;
+  border-width: 5px;  
+}
+
+#borderS p.one {border-style: solid;}
+#borderS p.two {border-style: dotted;}
+#borderS p.three {border-style: dashed;}
+#borderS p.four {border-style: double;}
+#borderS p.five {border-style: groove;}
+#borderS p.six {border-style: ridge;}
+#borderS p.seven {border-style: inset;}
+#borderS p.eight {border-style: outset;}
+#borderS p.color {border-style: solid;border-color: #bbbbaa #111111 #ee3e80 #0088dd;}
+#borderS p.rounded {border: 5px solid #cccccc; border-radius: 10px;}
+
+#shapes p{
+  display: inline-block;
+  height: 100px;
+  width:  100px;
+  border: 3px solid black;
+}
+
+#shapes p.one{
+  border-top-left-radius: 80px 50px;
+}
+
+#shapes p.two{
+  border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+
+#shapes p.three {
+  border-radius: 100px;
+}
+
+
+#padding p{
+  width: 275px;
+  border: 2px solid #0088dd;
+}
+
+#padding p.pad{
+  padding: 10px;
+}
+
+#margin p{
+  width: 275px;
+  border: 2px solid #0088dd;
+}
+
+#margin p.marg{
+  margin: 10px;
+}
+
+#centering article{
+  text-align: center;
+}
+
+#centering article p{
+  width: 300px;
+  padding: 50px;
+  border: 20px solid #0088dd;
+}
+
+#centering article p.cntr{
+  margin: 10px auto 10px auto;
+  text-align: left;
+}
+
+
+#displaying li{
+  font-family: "Bahnschrift Light";
+  display: inline;
+  border-bottom: 2px solid #000000;
+  margin-right: 10px;
+}
+
+#displaying li.coming-soon{
+  display: none;
+}
+
+
+
+#shadowSqr{
+  height: 200px;
+  width: 200px;
+  background-color: #ee3e80;
+
+  -moz-box-shadow: 5px 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px 5px #777777;
+  box-shadow: 8px 7px 4px 2px #777777;}
+}
+
+
+
+#shadow h2:hover{
+  text-shadow: 8px 7px 4px #777777;
+}
